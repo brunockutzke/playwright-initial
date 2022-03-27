@@ -1,9 +1,12 @@
 {
   "name": "playwright_initial",
   "version": "1.0.0",
-  "description": "",
+  "description": "A basic project to study Playwright framework application.",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "run:all": "playwright test",
+    "run:chrome": "playwright test --headed tests/store.spec.js --project=chromium"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
